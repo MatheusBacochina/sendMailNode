@@ -3,17 +3,17 @@ const { getTransport, sendEmail } = require('./send-email')
 
 const config = {
     service: 'gmail',
-    email: 'bacochinakawai1@gmail.com',
-    password: 'teteu1601'
+    email: '',
+    password: ''
 }
 
 const destination = {
-    remetente: 'bacochinayt@gmail.com',
-    email: 'bacochinayt@gmail.com',
-    subject: 'mc maconha'
+    remetente: '',
+    email: '',
+    subject: ''
 }
 
-const html =  `<h1> Testando Diário do Noob`
+const html =  ``
 
 const transport = getTransport(config)
 
